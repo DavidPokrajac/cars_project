@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif !important;
+}
+
+.sort-modal-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.sort-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    background-color: aliceblue;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sort-modal button {
+    margin: 10px 0 10px 0;
+    background: none;
+    font-family: inherit;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0.5rem 0;
+    max-height: 36px;
+    min-height: 36px;
+    color: black;
+}
+
+.sort-modal button:hover {
+    cursor: pointer;
+    color: rgb(162, 162, 69);
+    border-bottom: 5px solid rgb(193, 193, 19);
+    font-weight: 500;
+}
+
+.sort-modal button:first-of-type {
+    margin-top: 25px;
+}
+
+.sort-modal button:last-of-type {
+    margin-bottom: 25px;
+}
+
+nav {
+    background-color: rgb(193, 193, 19);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.pagination-container button {
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(162, 162, 69);
+    padding: 0.7rem 1.1rem;
+    margin: 0 0.5rem;
+}
+
+.pagination-container button:hover {
+    cursor: pointer;
+    background-color: rgb(193, 193, 19);
+    transition: background-color 02.s ease-in;
+}

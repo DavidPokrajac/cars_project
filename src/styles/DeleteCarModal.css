@@ -1,0 +1,76 @@
+.delete-modal-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-modal {
+    background-color: rgb(242, 240, 191);
+    border-radius: 10px;
+    width: 25%;
+}
+
+.title {
+    border-bottom: 1px solid rgba(110, 110, 5, 0.95);
+}
+
+.delete-modal h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.delete-modal .title + p {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.delete-modal > span {
+    display: inline-block;
+    width: 60%;
+    transform: translateX(35%);
+}
+
+.car {
+    text-align: center;
+}
+
+.car span {
+    background-color: transparent;
+    border: none;
+    width: 60%;
+}
+
+.delete-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    border-top: 1px solid rgba(110, 110, 5, 0.95);
+}
+
+.delete-options button {
+    font-family: inherit;
+    background-color: rgba(110, 110, 5, 0.95);
+    border: none;
+    font-size: 110%;
+    color: white;
+    border-radius: 2px;
+    padding: 1rem;
+}
+
+.delete-options button:hover {
+    cursor: pointer;
+}
+
+.delete-options button:first-of-type:hover {
+    background-color: rgb(11, 183, 85);
+}
+
+.delete-options button:last-of-type:hover {
+    background-color: rgb(236, 82, 82);
+}

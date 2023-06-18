@@ -1,0 +1,83 @@
+.car-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.9rem 1.5rem;
+    background-color: rgb(249, 244, 239);
+    padding-bottom: 0;
+    height: 225px;
+}
+
+.thumbnail {
+    flex-basis: 25vmin;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    flex-grow: 1;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+
+.car-details > div button:hover {
+    cursor: pointer;
+}
+
+.car-name {
+    font-size: 1.35rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: none;
+}
+
+.car-name span {
+    font-size: 0.75rem;
+    vertical-align: middle;
+    margin-left: 1.25rem;
+    border: none;
+    background-color: transparent;
+}
+
+.published {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+    transform: translateY(25px);
+}
+
+.car-price span {
+    font-weight: bold;
+    font-size: 1.15rem;
+    border: none;
+    background-color: transparent;
+}
+
+.car-details > div {
+    margin-left: auto;
+    display: block;
+    width: fit-content;
+}
+
+.car-details > div button {
+    border: none;
+}
+
+.car-details > div a {
+    text-decoration: none;
+}
+
+.car-details > div a,
+.car-details > div button {
+    color: white;
+    font-family: inherit;
+    font-size: 0.9rem;
+    background-color: rgb(193, 193, 19);
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
